@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1190901ABE9B5B001D0990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A11908F1ABE9B5B001D0990 /* AppDelegate.m */; };
+		0A1190921ABE9B5B001D0990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1190911ABE9B5B001D0990 /* main.m */; };
+		0A1190941ABE9B5B001D0990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1190931ABE9B5B001D0990 /* Images.xcassets */; };
+		0A1190A31ABE9B5B001D0990 /* AppleScriptPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1190A21ABE9B5B001D0990 /* AppleScriptPlayerTests.m */; };
+		0A4B80691ABEA21400EE7908 /* CocoaLibSpotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4B80661ABEA1FE00EE7908 /* CocoaLibSpotify.framework */; };
+		0A4B806A1ABEA21400EE7908 /* CocoaLibSpotify.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4B80661ABEA1FE00EE7908 /* CocoaLibSpotify.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A4B806E1ABEA24900EE7908 /* libspotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4B806D1ABEA24900EE7908 /* libspotify.framework */; };
+		0A6661851ABF21050001D061 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6661841ABF21050001D061 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A11909D1ABE9B5B001D0990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A1190811ABE9B5B001D0990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1190881ABE9B5B001D0990;
+			remoteInfo = AppleScriptPlayer;
+		};
+		0A4B80651ABEA1FE00EE7908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4B80601ABEA1FD00EE7908 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 503D630F13258041007772CA;
+			remoteInfo = CocoaLibSpotify;
+		};
+		0A4B80671ABEA1FE00EE7908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4B80601ABEA1FD00EE7908 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504E4934155AA85400E1C0F7;
+			remoteInfo = CocoaLSTests;
+		};
+		0A4B806B1ABEA21400EE7908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4B80601ABEA1FD00EE7908 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 503D630E13258041007772CA;
+			remoteInfo = CocoaLibSpotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A4B805C1ABE9F7B00EE7908 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A4B806A1ABEA21400EE7908 /* CocoaLibSpotify.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A1190891ABE9B5B001D0990 /* AppleScriptPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleScriptPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A11908D1ABE9B5B001D0990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A11908E1ABE9B5B001D0990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A11908F1ABE9B5B001D0990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A1190911ABE9B5B001D0990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A1190931ABE9B5B001D0990 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A11909C1ABE9B5B001D0990 /* AppleScriptPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleScriptPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1190A11ABE9B5B001D0990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1190A21ABE9B5B001D0990 /* AppleScriptPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleScriptPlayerTests.m; sourceTree = "<group>"; };
+		0A4B80601ABEA1FD00EE7908 /* CocoaLibSpotify Mac Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CocoaLibSpotify Mac Framework.xcodeproj"; path = "../third_party/cocoalibspotify/Mac Framework/CocoaLibSpotify Mac Framework.xcodeproj"; sourceTree = "<group>"; };
+		0A4B806D1ABEA24900EE7908 /* libspotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libspotify.framework; path = "../third_party/libspotify-12.1.51-Darwin-universal/libspotify.framework"; sourceTree = "<group>"; };
+		0A6661841ABF21050001D061 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1190861ABE9B5B001D0990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4B806E1ABEA24900EE7908 /* libspotify.framework in Frameworks */,
+				0A4B80691ABEA21400EE7908 /* CocoaLibSpotify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1190991ABE9B5B001D0990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1190801ABE9B5B001D0990 = {
+			isa = PBXGroup;
+			children = (
+				0A4B806D1ABEA24900EE7908 /* libspotify.framework */,
+				0A11908B1ABE9B5B001D0990 /* AppleScriptPlayer */,
+				0A11909F1ABE9B5B001D0990 /* AppleScriptPlayerTests */,
+				0A11908A1ABE9B5B001D0990 /* Products */,
+				0A4B80601ABEA1FD00EE7908 /* CocoaLibSpotify Mac Framework.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		0A11908A1ABE9B5B001D0990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1190891ABE9B5B001D0990 /* AppleScriptPlayer.app */,
+				0A11909C1ABE9B5B001D0990 /* AppleScriptPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A11908B1ABE9B5B001D0990 /* AppleScriptPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0A11908E1ABE9B5B001D0990 /* AppDelegate.h */,
+				0A11908F1ABE9B5B001D0990 /* AppDelegate.m */,
+				0A1190931ABE9B5B001D0990 /* Images.xcassets */,
+				0A11908C1ABE9B5B001D0990 /* Supporting Files */,
+				0A6661841ABF21050001D061 /* MainMenu.xib */,
+			);
+			path = AppleScriptPlayer;
+			sourceTree = "<group>";
+		};
+		0A11908C1ABE9B5B001D0990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A11908D1ABE9B5B001D0990 /* Info.plist */,
+				0A1190911ABE9B5B001D0990 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A11909F1ABE9B5B001D0990 /* AppleScriptPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1190A21ABE9B5B001D0990 /* AppleScriptPlayerTests.m */,
+				0A1190A01ABE9B5B001D0990 /* Supporting Files */,
+			);
+			path = AppleScriptPlayerTests;
+			sourceTree = "<group>";
+		};
+		0A1190A01ABE9B5B001D0990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1190A11ABE9B5B001D0990 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A4B80611ABEA1FD00EE7908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B80661ABEA1FE00EE7908 /* CocoaLibSpotify.framework */,
+				0A4B80681ABEA1FE00EE7908 /* CocoaLSTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1190881ABE9B5B001D0990 /* AppleScriptPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1190A61ABE9B5B001D0990 /* Build configuration list for PBXNativeTarget "AppleScriptPlayer" */;
+			buildPhases = (
+				0A1190851ABE9B5B001D0990 /* Sources */,
+				0A1190861ABE9B5B001D0990 /* Frameworks */,
+				0A1190871ABE9B5B001D0990 /* Resources */,
+				0A4B805C1ABE9F7B00EE7908 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4B806C1ABEA21400EE7908 /* PBXTargetDependency */,
+			);
+			name = AppleScriptPlayer;
+			productName = AppleScriptPlayer;
+			productReference = 0A1190891ABE9B5B001D0990 /* AppleScriptPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A11909B1ABE9B5B001D0990 /* AppleScriptPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1190A91ABE9B5B001D0990 /* Build configuration list for PBXNativeTarget "AppleScriptPlayerTests" */;
+			buildPhases = (
+				0A1190981ABE9B5B001D0990 /* Sources */,
+				0A1190991ABE9B5B001D0990 /* Frameworks */,
+				0A11909A1ABE9B5B001D0990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A11909E1ABE9B5B001D0990 /* PBXTargetDependency */,
+			);
+			name = AppleScriptPlayerTests;
+			productName = AppleScriptPlayerTests;
+			productReference = 0A11909C1ABE9B5B001D0990 /* AppleScriptPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1190811ABE9B5B001D0990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Kevin Mook";
+				TargetAttributes = {
+					0A1190881ABE9B5B001D0990 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Y3J2Q7QQ68;
+					};
+					0A11909B1ABE9B5B001D0990 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0A1190881ABE9B5B001D0990;
+					};
+				};
+			};
+			buildConfigurationList = 0A1190841ABE9B5B001D0990 /* Build configuration list for PBXProject "AppleScriptPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A1190801ABE9B5B001D0990;
+			productRefGroup = 0A11908A1ABE9B5B001D0990 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0A4B80611ABEA1FD00EE7908 /* Products */;
+					ProjectRef = 0A4B80601ABEA1FD00EE7908 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0A1190881ABE9B5B001D0990 /* AppleScriptPlayer */,
+				0A11909B1ABE9B5B001D0990 /* AppleScriptPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0A4B80661ABEA1FE00EE7908 /* CocoaLibSpotify.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLibSpotify.framework;
+			remoteRef = 0A4B80651ABEA1FE00EE7908 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0A4B80681ABEA1FE00EE7908 /* CocoaLSTests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CocoaLSTests.app;
+			remoteRef = 0A4B80671ABEA1FE00EE7908 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1190871ABE9B5B001D0990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1190941ABE9B5B001D0990 /* Images.xcassets in Resources */,
+				0A6661851ABF21050001D061 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A11909A1ABE9B5B001D0990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1190851ABE9B5B001D0990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1190921ABE9B5B001D0990 /* main.m in Sources */,
+				0A1190901ABE9B5B001D0990 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1190981ABE9B5B001D0990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1190A31ABE9B5B001D0990 /* AppleScriptPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A11909E1ABE9B5B001D0990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A1190881ABE9B5B001D0990 /* AppleScriptPlayer */;
+			targetProxy = 0A11909D1ABE9B5B001D0990 /* PBXContainerItemProxy */;
+		};
+		0A4B806C1ABEA21400EE7908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLibSpotify;
+			targetProxy = 0A4B806B1ABEA21400EE7908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A1190A41ABE9B5B001D0990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A1190A51ABE9B5B001D0990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A1190A71ABE9B5B001D0990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kevin/programming/kevin/music/third_party/libspotify-12.1.51-Darwin-universal",
+				);
+				INFOPLIST_FILE = AppleScriptPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A1190A81ABE9B5B001D0990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kevin/programming/kevin/music/third_party/libspotify-12.1.51-Darwin-universal",
+				);
+				INFOPLIST_FILE = AppleScriptPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A1190AA1ABE9B5B001D0990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleScriptPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleScriptPlayer.app/Contents/MacOS/AppleScriptPlayer";
+			};
+			name = Debug;
+		};
+		0A1190AB1ABE9B5B001D0990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleScriptPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleScriptPlayer.app/Contents/MacOS/AppleScriptPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1190841ABE9B5B001D0990 /* Build configuration list for PBXProject "AppleScriptPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1190A41ABE9B5B001D0990 /* Debug */,
+				0A1190A51ABE9B5B001D0990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1190A61ABE9B5B001D0990 /* Build configuration list for PBXNativeTarget "AppleScriptPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1190A71ABE9B5B001D0990 /* Debug */,
+				0A1190A81ABE9B5B001D0990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1190A91ABE9B5B001D0990 /* Build configuration list for PBXNativeTarget "AppleScriptPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1190AA1ABE9B5B001D0990 /* Debug */,
+				0A1190AB1ABE9B5B001D0990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A1190811ABE9B5B001D0990 /* Project object */;
+}
